@@ -1,2 +1,55 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.contact-form {
+
+  .flex-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: .3em;
+    font-weight: bold;
+  }
+
+  input, textarea {
+    margin-top: .3em;
+    margin-bottom: 1em;
+  }
+
+  fieldset {
+    margin-bottom: .5em;
+  }
+
+  legend {
+    padding: .3em .6em;
+    margin-bottom: 1.1em;
+
+    border: 1px solid black;
+    border-radius: 15px;
+
+    background-color: $brand-color-dark;
+    color: white;
+  }
+
+  .submit-btn {
+    padding: .5em 1em;
+  
+    background-color: $brand-color-dark;
+    color: white;
+  
+    font-family: inherit;
+  
+    border: 1px solid white;
+    border-radius: 15px;
+  }
+
+  .submit-btn:hover {
+    cursor: pointer;
+  
+    background-color: white;
+    border: 1px solid $brand-color-dark;
+    color: black;
+  }
+}
