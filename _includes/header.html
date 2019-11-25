@@ -1,7 +1,7 @@
 <header class="site-header">
 
   <div class="wrapper">
-    <!-- Variables -->
+    <!-- Variables (from original Minima theme) -->
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
@@ -9,10 +9,10 @@
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
     {%- if titles_size > 0 -%}
+      <!-- Use _data to populate the navigation bar -->
       <nav class="site-nav">
         {%- for item in site.data.navigation -%}
-          <a class="page-link" href="{{ item.link }}" title="{{item.title}}">{{item.label}}</a>
-          
+          <a class="page-link" href="{{ item.link }}" title="{{ item.title }}">{{ item.label }}</a>
         {%- endfor -%}
       </nav>
     {%- endif -%}
