@@ -1,6 +1,43 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
+/**
+ * Site header
+ */
+ .site-header {
+
+   min-height: $spacing-unit * 6; /* same format as _layout.scss */
+   background-color: $brand-color;
+
+   /* Override the default header layout and try to center everything */
+   /* TODO: Get rid of the nav menu icon */
+   .wrapper {
+
+    display: flex;
+    flex-direction: column;
+
+    .site-title {
+      color: white;
+      float: none;
+      margin: auto;
+    }
+
+    .site-nav {
+      display: flex;
+      justify-content: space-between;
+      float: none;
+      margin: auto;
+
+      .page-link {
+        color: white;
+      }
+    }
+   }
+ }
+
+/**
+ * Contact Form
+ */
 .contact-form {
 
   .flex-form {
