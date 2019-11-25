@@ -1,0 +1,11 @@
+- title: About
+  label: About
+  link: /about
+
+- title: Blog
+  label: Blog
+  link: /blog
+
+- title: Contact
+  label: Contact
+  link: /contact
