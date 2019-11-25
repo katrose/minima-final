@@ -10,25 +10,36 @@
    background-color: $brand-color;
 
    /* Override the default header layout and try to center everything */
-   /* TODO: Get rid of the nav menu icon */
    .wrapper {
 
+    min-height: $spacing-unit * 6; /* why does this not get applied from parent container? */
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 
     .site-title {
-      color: white;
-      float: none;
       margin: auto;
+
+      float: none;
+
+      color: white;
+
+      font-size: 2.6em;
     }
 
     .site-nav {
-      display: flex;
-      justify-content: space-between;
-      float: none;
       margin: auto;
 
+      display: flex;
+      justify-content: space-between;
+
+      align-self: flex-end;
+
+      float: none;
+
       .page-link {
+        padding: 0 .5em;
+
         color: white;
       }
     }
