@@ -7,3 +7,5 @@
 #
 layout: home
 ---
+
+My very first Jekyll blog. I looked through all the officially supported GH Pages themes and I thought they were all pretty ugly. So I stuck with Minima.
