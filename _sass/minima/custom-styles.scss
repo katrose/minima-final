@@ -6,13 +6,13 @@
  */
  .site-header {
 
-   min-height: $spacing-unit * 6; /* same format as _layout.scss */
+   min-height: $spacing-unit * 5; /* same format as _layout.scss */
    background-color: $brand-color;
 
    /* Override the default header layout and try to center everything */
    .wrapper {
 
-    min-height: $spacing-unit * 6; /* why does this not get applied from parent container? */
+    min-height: $spacing-unit * 5; /* why does this not get applied from parent container? */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -44,6 +44,10 @@
       }
     }
    }
+ }
+
+ .post-link {
+   font-weight: bold;
  }
 
 /**

@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
-My name is Katherine Picazo and I'm currently in Calgary studying web development.
+Hi. I'm Katherine.
 
-This site is mostly about some of my hobbies, namely reading *manga* (Japanese comics) and playing video games. I used to keep diaries as a teenager, and that's how I developed a writing habit. I don't really journal anymore, but over the years I've recorded some thoughts about the media I consume.
+This site is where I collect my thoughts about the stuff I read, watch and play. I used to keep diaries as a teenager, and that's how I developed a writing habit.
+
+I'm also currently studying web development. You can see some of my class projects here.
