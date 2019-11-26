@@ -7,7 +7,10 @@
  .site-header {
 
    min-height: $spacing-unit * 5; /* same format as _layout.scss */
-   background-color: $brand-color;
+  //  background-color: $brand-color;
+  background: url(../../assets/img/abstract-black-and-white-blur-book-261763.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 
    /* Override the default header layout and try to center everything */
    .wrapper {
@@ -47,6 +50,11 @@
  }
 
  .post-link {
+   font-weight: bold;
+ }
+
+ .post-title {
+   color: $link-base-color;
    font-weight: bold;
  }
 
