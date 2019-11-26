@@ -6,4 +6,4 @@ permalink: /about/
 
 This site is where I collect my thoughts about the stuff I read, watch and play.
 
-I'm also currently studying web development. You can see some of my class projects here.
+I'm also currently studying web development. You can see some of my class projects [here](/projects).

@@ -1,14 +1,16 @@
-- title: Home
-  label: Home
+# Because pagination only seems to work on index.html, for the purpose
+# of this assignment, I've placed the blog on the home page.
+- title: Blog
+  label: Blog
   link: /
-
-- title: About
-  label: About
-  link: /about
 
 - title: Projects
   label: Projects
   link: /projects
+
+- title: About
+  label: About
+  link: /about
 
 - title: Contact
   label: Contact

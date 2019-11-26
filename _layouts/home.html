@@ -9,7 +9,8 @@ layout: default
 
   {{ content }}
 
-  <!-- This loops through the paginated posts -->
+  <!-- PAGINATION -->
+  <!-- ref: https://jekyllrb.com/docs/pagination/-->
   <ul class="post-list">
     {% for post in paginator.posts %}
     <li>
