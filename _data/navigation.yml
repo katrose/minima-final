@@ -2,6 +2,10 @@
   label: About
   link: /about
 
+- title: Projects
+  label: Projects
+  link: /projects
+
 - title: Contact
   label: Contact
   link: /contact

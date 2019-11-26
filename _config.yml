@@ -38,3 +38,7 @@ paginate: 5
 collections:
   projects:
     output: true
+    order:
+      - pokedex.md
+      - mobilereact.md
+      - staticexpress.md

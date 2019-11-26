@@ -1,0 +1,9 @@
+---
+layout: page
+title: Projects
+---
+
+{% for project in site.projects %}
+  <h2><a href="{{ project.github_url }}">{{ project.name }}</a></h2>
+  <p>{{ project.content }}</p>
+{% endfor %}
