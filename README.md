@@ -6,8 +6,8 @@ https://distracted-spence-debcfb.netlify.com
 ### Local Installation
 
 1. `git clone https://github.com/katrose/minima-final`
-2. `script/bootstrap` (or `gem install bundle` followed by `bundle install`) to install dependencies
-3. `script/server` (or `bundle exec jekyll serve`)
+2. `script/bootstrap` to install dependencies
+3. `script/server` to build site and make it available on local server
 4. Go to http://localhost:4000 to see website
 
 ## Notes on Deliverables
